@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Attach by com.sun.jdi.SharedMemoryListen",
+            "type": "java+",
+            "request": "attach",
+            "listen": "${command:nbls.java.attachDebugger.connector.com.sun.jdi.SharedMemoryListen.listen}"
+        }
+    ]
+}
